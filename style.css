@@ -25,6 +25,7 @@
   .content{width:100%;max-width:390px;position:relative}
   .monogram{color:var(--gold);font-size:26px;letter-spacing:5px;margin-bottom:20px}
   .kicker{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--deep-gold);margin:0;line-height:1.9}
+  .kicker2{font-size:8px;letter-spacing:.24em;text-transform:uppercase;color:var(--deep-gold);margin:0;line-height:1.9}
   h1{font-weight:400;margin:20px 0 14px;line-height:1}
   .names{font-family:"Great Vibes","Brush Script MT",cursive;font-size:clamp(54px,15vw,78px);color:#8b6339;line-height:1.13}
   .amp{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:55px;color:#8b6339;margin:1px 0}
