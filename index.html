@@ -1,161 +1,183 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#591e2b">
-<title>Our Engagement</title>
-
+<meta name="theme-color" content="#f4ead8">
+<meta name="description" content="Rachit and Sana invite you to celebrate their engagement on 24 October 2026 at 3G Celebrations, DMall, Indirapuram.">
+<meta property="og:title" content="Rachit & Sana — Engagement Invitation">
+<meta property="og:description" content="Together with our families, we invite you to celebrate our engagement.">
+<title>Rachit &amp; Sana — Engagement Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
-* { box-sizing: border-box; }
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  background: #f7eee5;
-  color: #54212d;
-  font-family: Georgia, "Times New Roman", serif;
+:root {
+  --cream:#f4ead8; --paper:#fff9ed; --ink:#59432e; --gold:#b28a4e;
+  --deep-gold:#8b6939; --sage:#7b8061; --soft-sage:#c8c6a9; --rose:#c9a99a;
 }
-
-.page {
-  min-height: 100svh;
-  display: grid;
-  place-items: center;
-  padding: 24px 18px;
-  text-align: center;
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#e8dcc7;color:var(--ink);font-family:"Cormorant Garamond",Georgia,serif}
+button,a{-webkit-tap-highlight-color:transparent}
+button{font:inherit}
+.invite{width:min(100%,520px);margin:auto;background:var(--paper);overflow:hidden;box-shadow:0 0 45px #705b3b18}
+.hero{
+  min-height:100svh;position:relative;isolation:isolate;display:flex;align-items:center;justify-content:center;
+  padding:30px 24px;text-align:center;overflow:hidden;
   background:
-    radial-gradient(ellipse at top, #fff9f0, transparent 65%),
-    #f7eee5;
+    radial-gradient(ellipse at 10% 10%,#d8c49b55,transparent 30%),
+    radial-gradient(ellipse at 92% 82%,#b6b28a44,transparent 30%),
+    linear-gradient(135deg,#fff9ed,#f1e3cc);
 }
-
-.invitation {
-  width: 100%;
-  max-width: 420px;
-}
-
-.eyebrow {
-  font-family: Arial, sans-serif;
-  font-size: 10px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: clamp(40px, 12vw, 60px);
-  line-height: 1.12;
-  font-weight: normal;
-  margin: 24px 0;
-}
-
-.ampersand {
-  display: block;
-  font-style: italic;
-  font-size: 36px;
-  color: #b18a59;
-  margin: 4px;
-}
-
-.ornament {
-  color: #b18a59;
-  font-size: 25px;
-  margin: 25px 0;
-}
-
-.date {
-  font-family: Arial, sans-serif;
-  font-size: 11px;
-  letter-spacing: 3px;
-}
-
-button {
-  margin-top: 32px;
-  padding: 15px 25px;
-  border: 1px solid #9e765d;
-  background: #591e2b;
-  color: #fff8ed;
-  font-size: 11px;
-  letter-spacing: 2px;
-  cursor: pointer;
-}
-
-button:focus-visible {
-  outline: 2px solid #9e765d;
-  outline-offset: 4px;
-}
-
-.details {
-  display: none;
-  animation: reveal 1s ease both;
-}
-
-.details.show { display: block; }
-
-.cover.hidden { display: none; }
-
-.message {
-  font-size: 17px;
-  line-height: 1.8;
-  max-width: 330px;
-  margin: 24px auto;
-}
-
-@keyframes reveal {
-  from { opacity: 0; transform: translateY(14px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
+.hero:before{content:"";position:absolute;inset:12px;border:1px solid #b28a4e99;pointer-events:none;z-index:-1}
+.hero:after{content:"";position:absolute;inset:18px;border:1px solid #b28a4e55;pointer-events:none;z-index:-1}
+.corner{position:absolute;width:150px;height:180px;pointer-events:none;opacity:.9}
+.corner svg{width:100%;height:100%}
+.corner.tl{top:0;left:0}.corner.tr{top:0;right:0;transform:scaleX(-1)}
+.corner.bl{bottom:0;left:0;transform:scaleY(-1)}.corner.br{bottom:0;right:0;transform:scale(-1)}
+.content{width:100%;max-width:390px;position:relative}
+.monogram{color:var(--gold);font-size:26px;letter-spacing:5px;margin-bottom:20px}
+.kicker{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--deep-gold);margin:0;line-height:1.9}
+h1{font-weight:400;margin:20px 0 14px;line-height:1}
+.names{font-family:"Great Vibes","Brush Script MT",cursive;font-size:clamp(54px,15vw,78px);color:#8b6339;line-height:1.13}
+.amp{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:26px;color:var(--gold);margin:1px 0}
+.rule{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px auto;color:var(--gold)}
+.rule:before,.rule:after{content:"";width:55px;height:1px;background:#b28a4e88}
+.rule span{font-size:20px}
+.intro{font-size:19px;font-style:italic;line-height:1.45;max-width:300px;margin:0 auto;color:#77624b}
+.date{margin-top:24px;font-size:12px;letter-spacing:.19em;color:#80613a}
+.cta{display:inline-block;margin-top:27px;border:1px solid var(--gold);background:#8a693f;color:#fff8e9;padding:13px 20px;text-transform:uppercase;letter-spacing:.14em;font-family:Arial,sans-serif;font-size:10px;cursor:pointer}
+.section{position:relative;padding:64px 25px;text-align:center;background:var(--paper)}
+.section.alt{background:#f1e5d0}
+.section h2{font-weight:400;font-size:42px;line-height:1.05;margin:13px 0 18px;color:#795b38}
+.script{font-family:"Great Vibes","Brush Script MT",cursive;font-size:48px;color:#9b7548}
+.copy{font-size:19px;line-height:1.6;color:#76634e;max-width:355px;margin:0 auto}
+.floral-divider{color:var(--gold);font-size:24px;margin:20px 0}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}
+.photo{position:relative;aspect-ratio:3/4;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:12px;text-align:center;overflow:hidden;border:1px solid #b28a4e66;background:
+ radial-gradient(ellipse at 20% 10%,#fffdf6aa,transparent 40%),
+ linear-gradient(145deg,#ded2b8,#f7ead6 50%,#c6c6a8)}
+.photo:nth-child(2){background:radial-gradient(ellipse at 80% 15%,#fffdf6aa,transparent 40%),linear-gradient(145deg,#e6d1bd,#f8efdf 55%,#c5c3a4)}
+.photo .heart{font-size:36px;color:#9b7548}
+.photo small{font-family:Arial,sans-serif;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#80613a;margin-top:10px}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.photo-note{font-size:15px;font-style:italic;color:#8b775f;margin:16px 0 0}
+.countdown{display:flex;justify-content:center;gap:16px;margin:25px 0 0}
+.countdown div{min-width:54px}
+.countdown strong{display:block;font-size:34px;font-weight:400;color:#8b6939}
+.countdown span{display:block;font-family:Arial,sans-serif;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8b775f}
+.event{border:1px solid #b28a4e88;padding:28px 16px;margin-top:27px;background:#fff9edaa}
+.event h3{font-size:31px;font-weight:400;margin:0 0 12px}
+.event p{font-size:17px;line-height:1.5;margin:7px 0;color:#76634e}
+.event .event-date{font-family:Arial,sans-serif;font-size:10px;letter-spacing:.16em;color:#80613a;margin:16px 0}
+.map{display:inline-block;margin-top:17px;border:1px solid var(--gold);padding:12px 18px;color:#80613a;text-decoration:none;font-family:Arial,sans-serif;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.closing{padding:55px 24px 45px;text-align:center;background:linear-gradient(#f7efdf,#eee0c6)}
+.closing h2{font-family:"Great Vibes",cursive;font-size:53px;font-weight:400;margin:10px 0;color:#8b6339}
+.footer{padding:15px;text-align:center;background:#eee0c6;color:#927b5b;font:9px Arial,sans-serif;letter-spacing:.14em}
+.fade{opacity:0;transform:translateY(13px);transition:opacity .7s ease,transform .7s ease}
+.fade.visible{opacity:1;transform:none}
+@media(max-width:360px){.corner{width:112px;height:140px}.section{padding:52px 19px}.countdown{gap:9px}.countdown div{min-width:47px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}.fade{opacity:1;transform:none}}
 </style>
 </head>
-
 <body>
-<main class="page">
-  <div class="invitation">
-
-    <section class="cover" id="cover">
-      <div class="ornament">✦</div>
-      <p class="eyebrow">Together with our families</p>
-      <h1>
-        Your Name
-        <span class="ampersand">&</span>
-        Partner's Name
-      </h1>
-      <p class="date">A NEW CHAPTER BEGINS</p>
-      <div class="ornament">❦</div>
-      <p>We have something special to share with you.</p>
-      <button id="openInvite">OPEN YOUR INVITATION ↗</button>
-    </section>
-
-    <section class="details" id="details" aria-live="polite">
-      <div class="ornament">✦</div>
-      <p class="eyebrow">With love and happiness</p>
-      <h1>We're Getting Engaged</h1>
-      <p class="message">
-        Two hearts, two families, one beautiful beginning.
-        We would be delighted to have you with us as we
-        celebrate this special moment in our lives.
-      </p>
-      <div class="ornament">❦</div>
-      <p class="eyebrow">Please join us</p>
-      <h2 id="eventDate">Your Engagement Date</h2>
-      <p id="venue">Your Venue · Your City</p>
-      <p>We can't wait to celebrate with you.</p>
-    </section>
-
+<main class="invite">
+<section class="hero" id="top">
+  <div class="corner tl" aria-hidden="true"><svg viewBox="0 0 150 180" fill="none" stroke="#8b966e" stroke-width="1.2"><path d="M0 8Q40 8 63 40T110 100"/><path d="M15 10Q22 35 46 31Q41 10 15 10Z" fill="#c8c6a9"/><path d="M35 23Q60 5 67 24Q56 40 35 23Z" fill="#d8d0ad"/><path d="M54 42Q28 43 35 65Q53 62 54 42Z" fill="#c8c6a9"/><path d="M68 59Q91 39 100 58Q84 75 68 59Z" fill="#c8c6a9"/><g stroke="#b28a4e"><circle cx="27" cy="62" r="10"/><circle cx="27" cy="62" r="4"/><path d="M27 48v28M13 62h28M17 52l20 20M37 52L17 72"/></g></svg></div>
+  <div class="corner tr" aria-hidden="true"><svg viewBox="0 0 150 180" fill="none" stroke="#8b966e" stroke-width="1.2"><path d="M0 8Q40 8 63 40T110 100"/><path d="M15 10Q22 35 46 31Q41 10 15 10Z" fill="#c8c6a9"/><path d="M35 23Q60 5 67 24Q56 40 35 23Z" fill="#d8d0ad"/><path d="M54 42Q28 43 35 65Q53 62 54 42Z" fill="#c8c6a9"/><path d="M68 59Q91 39 100 58Q84 75 68 59Z" fill="#c8c6a9"/></svg></div>
+  <div class="corner bl" aria-hidden="true"><svg viewBox="0 0 150 180" fill="none" stroke="#8b966e" stroke-width="1.2"><path d="M0 8Q40 8 63 40T110 100"/><path d="M15 10Q22 35 46 31Q41 10 15 10Z" fill="#c8c6a9"/><path d="M35 23Q60 5 67 24Q56 40 35 23Z" fill="#d8d0ad"/><path d="M54 42Q28 43 35 65Q53 62 54 42Z" fill="#c8c6a9"/></svg></div>
+  <div class="corner br" aria-hidden="true"><svg viewBox="0 0 150 180" fill="none" stroke="#8b966e" stroke-width="1.2"><path d="M0 8Q40 8 63 40T110 100"/><path d="M15 10Q22 35 46 31Q41 10 15 10Z" fill="#c8c6a9"/><path d="M35 23Q60 5 67 24Q56 40 35 23Z" fill="#d8d0ad"/><path d="M54 42Q28 43 35 65Q53 62 54 42Z" fill="#c8c6a9"/></svg></div>
+  <div class="content">
+    <div class="monogram">R <span style="font-size:14px">✦</span> S</div>
+    <p class="kicker">Together with our families</p>
+    <p class="kicker" style="margin-top:9px">You are invited to celebrate the engagement of</p>
+    <h1><span class="names">Rachit</span><span class="amp">&amp;</span><span class="names">Sana</span></h1>
+    <div class="rule"><span>❦</span></div>
+    <p class="intro">Two hearts, one beautiful beginning.<br>Join us for a day filled with love.</p>
+    <p class="date">SATURDAY · 24 OCTOBER 2026</p>
+    <button class="cta" id="openInvite" type="button">Open invitation ↓</button>
   </div>
+</section>
+
+<section class="section fade" id="welcome">
+  <p class="kicker">A new chapter begins</p>
+  <h2>With love &amp; joy</h2>
+  <p class="copy">We’re delighted to begin this beautiful journey together. Your blessings and presence would make our engagement celebration all the more special.</p>
+  <div class="floral-divider">✿ ❦ ✿</div>
+  <p class="script">Rachit &amp; Sana</p>
+</section>
+
+<section class="section fade" id="details">
+  <p class="kicker">Please save the date</p>
+  <h2>Celebrate with us</h2>
+  <p class="copy">The countdown is on until we celebrate this special milestone together.</p>
+  <div class="countdown" id="countdown">
+    <div><strong id="days">--</strong><span>Days</span></div>
+    <div><strong id="hours">--</strong><span>Hours</span></div>
+    <div><strong id="minutes">--</strong><span>Minutes</span></div>
+    <div><strong id="seconds">--</strong><span>Seconds</span></div>
+  </div>
+  <div class="event">
+    <div class="floral-divider">✧</div>
+    <h3>Rachit &amp; Sana</h3>
+    <p class="event-date">SATURDAY · 24 OCTOBER 2026</p>
+    <p><strong>3G Celebrations</strong></p>
+    <p>DMall, Indirapuram</p>
+    <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=3G+Celebrations+DMall+Indirapuram" target="_blank" rel="noopener noreferrer">View directions ↗</a>
+  </div>
+</section>
+
+<section class="closing fade">
+  <div class="floral-divider">❦</div>
+  <p class="kicker">With all our love</p>
+  <h2>We can’t wait to see you</h2>
+  <p class="copy">Thank you for being part of our story.</p>
+  <p class="script" style="margin-bottom:0">Rachit &amp; Sana</p>
+</section>
+<footer class="footer">MADE WITH LOVE · RACHIT &amp; SANA · 2026</footer>
 </main>
 
 <script>
-document.getElementById("openInvite").addEventListener("click", () => {
-  document.getElementById("cover").classList.add("hidden");
-  document.getElementById("details").classList.add("show");
+document.getElementById("openInvite").addEventListener("click", function () {
+  document.getElementById("welcome").scrollIntoView({behavior:"smooth"});
 });
+const target = new Date("2026-10-24T00:00:00+05:30").getTime();
+function updateCountdown() {
+  const wrap = document.getElementById("countdown");
+  let diff = target - Date.now();
+  if (diff <= 0) {
+    wrap.innerHTML = '<p class="copy">Today is the day! We can’t wait to celebrate with you.</p>';
+    return;
+  }
+  const values = [
+    Math.floor(diff / 86400000),
+    Math.floor((diff % 86400000) / 3600000),
+    Math.floor((diff % 3600000) / 60000),
+    Math.floor((diff % 60000) / 1000)
+  ];
+  ["days","hours","minutes","seconds"].forEach((id,i) => {
+    document.getElementById(id).textContent = String(values[i]).padStart(2,"0");
+  });
+}
+updateCountdown();
+setInterval(updateCountdown,1000);
+
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const fadeItems = document.querySelectorAll(".fade");
+if ("IntersectionObserver" in window && !reduceMotion) {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {threshold:.12});
+  fadeItems.forEach(el => observer.observe(el));
+} else {
+  fadeItems.forEach(el => el.classList.add("visible"));
+}
 </script>
 </body>
 </html>
